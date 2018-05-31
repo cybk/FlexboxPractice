@@ -112,7 +112,12 @@ section, footer {
   .flex-nav ul{
     display: none;
   }
-  .flex-nav il.open{
-    display:flex;
+  
+  .flex-nav ul.open{
+    display: flex;
+  }
+  
+  .top{
+    order:2;
   }
 }
